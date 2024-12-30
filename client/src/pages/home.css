@@ -6,25 +6,12 @@ body {
     margin: 0;
     padding: 0;
 }
-
-.navbar {
-    background-color: #e60000; /* Red */
-}
-
 .navbar-brand,
 .navbar-nav .nav-link {
     color: #ffd700; /* Gold */
 }
 
-.hero {
-    background-image: url('../../public/amsky.jpg');
-    background-size: cover;
-    background-position:100%;
-    background-position-y:-170px;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-}
+
 
 .form-section {
     background-color: white;
@@ -93,4 +80,11 @@ body {
 /* Limit number of pax to 10 */
 #passengers {
     max-width: 100%;
+}
+.form-section{
+    backgroundColor: 'white';
+    borderRadius: 10px;
+    boxShadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    marginTop: 60px;
 }
